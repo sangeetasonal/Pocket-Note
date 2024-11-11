@@ -1,0 +1,141 @@
+
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4fb;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  color: #666;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.encrypted-text {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 20px;
+} 
+.main-content .illustration img {
+  max-width: 100%;
+  width: 300px; 
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #DAE5F5;
+  height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.illustration {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.illustration img {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 420px;
+  height: 200px;
+  top: 240px;
+}
+
+.app-info h1 {
+  color: #000000;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58.59px;
+  letter-spacing: 0.01em;
+}
+
+.other-info {
+  margin-bottom: 55px;
+}
+
+.other-info p {
+  color: #292929;
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.encryption-notice {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  position: absolute;
+  bottom: 1.2rem;
+  margin-left: 160px;
+}
+
+.encryption-notice img.lock-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; 
+    display: block;
+  }
+
+  .right-content {
+    display: none;
+    width: 100%;
+  }
+
+  .note-area {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e7f1ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #1a3d7c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
